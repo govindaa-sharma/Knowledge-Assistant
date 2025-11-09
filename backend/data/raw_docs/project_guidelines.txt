@@ -1,0 +1,81 @@
+Project Workflow & Agile Guidelines
+1. Our Agile Methodology
+We follow an Agile methodology inspired by Scrum. Our goal is transparency, regular feedback, and the ability to adapt to change.
+
+Sprint Cycles: We operate in 2-week sprint cycles.
+
+Sprint Goal: Each sprint begins with a clear goal (e.g., "Launch V1 of the billing page").
+
+Backlog: The Product Owner maintains a prioritized Product Backlog in Jira.
+
+2. Sprint Ceremonies
+Attendance at all ceremonies is mandatory for the entire development team.
+
+Sprint Planning: (Monday, 10:00 AM, 2 hours)
+
+The team reviews and selects high-priority stories from the backlog.
+
+We break down stories into sub-tasks and add time estimates (Story Points).
+
+Daily Stand-ups: (Every day, 10:00 AM, 15 mins)
+
+Held to sync progress. This is not a status report for managers.
+
+Be prepared to answer:
+
+What did I complete yesterday?
+
+What will I work on today?
+
+What blockers are in my way?
+
+Sprint Review / Demo: (Final Friday, 3:00 PM, 1 hour)
+
+The team demonstrates the "Done" work from the sprint to stakeholders.
+
+Sprint Retrospective: (Final Friday, 4:00 PM, 1 hour)
+
+A private team meeting to discuss what went well, what didn't, and what we can improve for the next sprint.
+
+3. Task Management in Jira
+Single Source of Truth: All tasks must be created and tracked via our Jira board. If it's not in Jira, it's not being worked on.
+
+Ticket Status: You are responsible for keeping your ticket status up-to-date.
+
+To Do: Ready to be picked up.
+
+In Progress: You are actively working on this.
+
+In Review: You have submitted a PR and are awaiting review.
+
+Done: The PR is merged to develop and passes all checks.
+
+4. Development & Branching
+Branching: Always create a feature branch from the develop branch. Never commit directly to develop or main.
+
+Commit Messages: Every commit must reference a Jira ticket ID.
+
+Good Format: [JIRA-123] Add user validation to login endpoint
+
+Bad Format: fixed bug
+
+Pull Requests (PRs):
+
+Fill out the PR template completely, explaining what you changed and why.
+
+Tag at least one teammate for a code review.
+
+Do not merge your own PR without explicit approval.
+
+5. Definition of "Done" (DoD)
+A ticket is only considered "Done" when it meets all of the following criteria:
+
+Code is successfully merged into the develop branch.
+
+Merge to main only after passing all CI/CD checks (linting, unit tests, integration tests).
+
+The code is reviewed and approved by at least one other developer.
+
+All acceptance criteria on the Jira ticket have been met.
+
+Any related documentation (e.g., API docs) has been updated.

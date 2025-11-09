@@ -1,0 +1,94 @@
+1. Your First Day
+Welcome! This guide will walk you through setting up your developer environment and understanding our workflows.
+
+1.1 Access & Accounts
+By now, you should have received invitations to the following systems. Please log in and set them up:
+
+Email/GSuite: Your [company]@company.com account.
+
+GitHub: Our code repositories. Please enable Two-Factor Authentication (2FA).
+
+Jira: Our project management and issue tracker.
+
+Slack: Our primary tool for internal communication.
+
+[HR Portal Name]: For payroll and leave requests.
+
+[Password Manager]: (e.g., 1Password/Vault) for sharing secure credentials.
+
+1.2 Your Support Network
+Your Manager: Will discuss your role, 30-60-90 day goals, and team structure.
+
+Your Onboarding Buddy: [Buddy Name] will be your go-to person for informal questions and help navigating the codebase.
+
+2. Development Environment Setup
+2.1 Core Tools
+Please ensure you have the following tools installed on your machine:
+
+Git (latest version)
+
+VS Code (our recommended IDE, with extensions: Prettier, ESLint, Python)
+
+Docker Desktop (essential for running our services)
+
+Postman or Insomnia (for API testing)
+
+2.2 Getting the Code
+Clone the main repository: This is our primary monorepo for all core services.
+
+Bash
+
+git clone https://github.com/company/main-service
+Navigate into the directory: cd main-service
+
+2.3 Installing Dependencies
+Our stack is a mix of Python (backend) and Node.js (frontend).
+
+Install project dependencies: Run the following command from the root directory.
+
+Bash
+
+npm install && pip install -r requirements.txt
+npm install builds our React-based frontend.
+
+pip install builds our Python-based microservices.
+
+2.4 Environment Variables
+We do not commit credentials to Git.
+
+Set up environment variables: You will find a file named .env.example.
+
+Copy this file: cp .env.example .env
+
+Contact your manager or Onboarding Buddy to get the shared .env config file values from our password manager.
+
+Populate your local .env file with these keys (database passwords, API keys, etc.).
+
+2.5 Running the Stack Locally
+Use Docker to run services locally: We use Docker Compose to spin up the entire ecosystem (all services, databases, and a local mail server).
+
+Bash
+
+docker-compose up --build
+The --build flag forces a rebuild of the images, which is good for the first run. In the future, docker-compose up is often sufficient.
+
+Once running, you can access the frontend at http://localhost:3000 and the API Gateway at http://localhost:8000.
+
+3. Our Workflow: Your First Ticket
+Find your first "good first issue" ticket assigned to you in Jira.
+
+Create a feature branch from the develop branch.
+
+Branch Name: feature/JIRA-123-short-description
+
+Make your code changes.
+
+Submit code changes via Pull Requests (PRs) for review.
+
+In your PR description, link to the Jira ticket.
+
+Tag your Onboarding Buddy and Tech Lead as reviewers.
+
+Wait for CI/CD checks to pass and for at least one approval.
+
+Once approved, you will "Squash and Merge" your PR into develop.

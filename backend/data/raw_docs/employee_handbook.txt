@@ -1,0 +1,76 @@
+1. Introduction
+1.1 Welcome to the Team
+Welcome to [Company Name]! This handbook is designed to be your guide to our company policies, procedures, and culture. We are thrilled to have you as part of our team and look forward to your contributions. Please read this handbook thoroughly, as it contains important information that will help you succeed here.
+
+1.2 Our Mission & Values
+Our mission is [Insert Company Mission Statement]. We achieve this by upholding our core values:
+
+Integrity: We act with honesty and transparency.
+
+Innovation: We encourage creative solutions and continuous improvement.
+
+Collaboration: We work together to achieve common goals.
+
+Respect: We value diversity and treat everyone with dignity.
+
+2. Working Hours & Attendance
+2.1 Standard Working Hours
+Employees are expected to work from 9:00 AM to 6:00 PM, Monday to Friday. This includes a one-hour unpaid lunch break, typically taken between 12:00 PM and 2:00 PM.
+
+2.2 Flexible Timing
+Flexible timing is allowed with prior written manager approval. Employees may request to adjust their start and end times (e.g., 8:00 AM to 5:00 PM) provided it does not impact team collaboration or business needs. Core hours of 10:00 AM to 4:00 PM must be maintained by all full-time employees.
+
+2.3 Attendance and Punctuality
+Employees are expected to report to work punctually. If you are unable to report to work or expect to be late, you must notify your manager as soon as possible, no later than your scheduled start time.
+
+3. Leave Policy
+3.1 Paid Time Off (PTO)
+Full-time employees are entitled to 18 paid leaves (PTO) per year. PTO accrues at a rate of 1.5 days per month.
+
+Requests: PTO requests must be submitted through the [HR Portal Name] at least two weeks in advance for vacations.
+
+Carryover: Employees may carry over a maximum of 5 unused PTO days into the next calendar year.
+
+3.2 Sick Leave
+Sick leave is intended for personal illness or injury.
+
+Reporting: Sick leave does not require prior approval, but you must report your absence to your manager and HR within 24 hours of the missed workday.
+
+Medical Certificate: A medical certificate is required for sick leave lasting three or more consecutive days.
+
+3.3 Other Leaves
+The company also provides other leaves, including:
+
+Bereavement Leave: Up to 3 days for immediate family members.
+
+Parental Leave: 12 weeks of paid leave for new parents, in accordance with [Country/State] law.
+
+Public Holidays: All declared public holidays for our location will be observed as paid holidays.
+
+4. Code of Conduct
+4.1 Professionalism & Respect
+Employees must maintain professionalism and respect in all internal and external communications. This includes email, chat (e.g., Slack, Teams), video calls, and in-person interactions. Harassment, discrimination, or bullying in any form will not be tolerated.
+
+4.2 Confidentiality & Data Security
+You will have access to confidential company, client, and user data. This information must not be shared with anyone outside the company or used for any purpose other than your assigned duties. All employees are required to sign a Non-Disclosure Agreement (NDA).
+
+4.3 Use of Company Property
+Company-issued equipment (laptops, phones, etc.) is provided for business use. Incidental personal use is permitted but should be minimal. Using company equipment for illegal activities, streaming, or external business ventures is strictly prohibited.
+
+4.4 Dress Code
+Our office maintains a "business casual" dress code. Please dress professionally, especially when meeting clients. Avoid clothing that is overly casual, such as shorts, flip-flops, or apparel with offensive graphics.
+
+5. Remote Work Policy
+5.1 Eligibility
+Remote work is allowed up to 3 days per week, depending on individual role, performance, and team requirements. This policy is a privilege, not an entitlement, and is subject to manager approval. Employees must typically complete their 90-day probationary period to be eligible.
+
+5.2 Expectations
+Employees working remotely are expected to:
+
+Maintain their standard 9:00 AM to 6:00 PM work schedule.
+
+Be available and responsive on chat and email during work hours.
+
+Have a secure, high-speed internet connection and a quiet, dedicated workspace.
+
+Attend all required meetings via video conferencing.
