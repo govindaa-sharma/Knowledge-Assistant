@@ -58,31 +58,6 @@ Gemini uses those chunks as context
 
 A final answer is generated and returned to the user
 
-🧩 Project Structure
-knowledge_assistant/
-│
-├── backend/
-│   ├── app.py                # FastAPI main server
-│   ├── embeddings.py         # Embedding model and helper functions
-│   ├── retriever.py          # FAISS retriever + vector store logic
-│   ├── graph.py              # (Optional) LLM execution graph
-│   ├── requirements.txt      # Backend dependencies
-│   ├── .env                  # LLM API keys + model config
-│   │
-│   └── data/
-│       ├── raw_docs/         # Uploaded documents
-│       └── vector_store/     # FAISS vector index of embeddings
-│
-└── frontend/
-    ├── src/
-    │   ├── App.jsx           # Main React component (UI)
-    │   ├── App.css           # Styling
-    │   ├── index.css
-    │   ├── main.jsx
-    │   └── assets/
-    ├── public/
-    ├── package.json
-    └── vite.config.js
 
 ⚙️ Backend Setup
 1. Go to backend folder
